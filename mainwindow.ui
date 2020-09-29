@@ -20,33 +20,39 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>17</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
     <property name="title">
      <string>小介绍</string>
     </property>
-    <addaction name="actionzhang"/>
     <addaction name="actionzzz"/>
-    <addaction name="actiondajia"/>
+    <addaction name="actionyou"/>
+    <addaction name="actionhh"/>
    </widget>
    <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionzhang">
-   <property name="text">
-    <string>由张倩与张潇丹制作</string>
-   </property>
-  </action>
   <action name="actionzzz">
    <property name="text">
-    <string>有趣的飞机大战游戏</string>
+    <string>由张倩和张潇丹制作</string>
+   </property>
+   <property name="iconText">
+    <string>由张倩和张潇丹制作</string>
+   </property>
+   <property name="toolTip">
+    <string>由张倩和张潇丹制作</string>
    </property>
   </action>
-  <action name="actiondajia">
+  <action name="actionyou">
    <property name="text">
-    <string>欢乐多又多 O(∩_∩)O哈哈~</string>
+    <string>有趣的飞机大战小游戏</string>
+   </property>
+  </action>
+  <action name="actionhh">
+   <property name="text">
+    <string>欢乐多又多~</string>
    </property>
   </action>
  </widget>

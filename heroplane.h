@@ -23,7 +23,9 @@ public:
     //飞机的矩形边框，用于碰撞检测
     QRect m_Rect;
 
+    //放置子弹
     bullet m_bullets[BULLET_NUM];
+    //发射间隔记录
     int m_recorder;
     int hp= HERO_HP;
 };

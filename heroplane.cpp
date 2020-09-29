@@ -23,13 +23,16 @@ Heroplane::Heroplane()
 
 void Heroplane::shoot()
 {
+    //累加时间间隔记录
     m_recorder++;
+    //时间记录没达到发射间隔->return
     if(m_recorder<BULLET_INTERVAL)
         return;//不发射，return掉
 
     //之后的子弹可以发射
     for(int i=0;i<BULLET_NUM;i++)
     {
+        //找出空闲的子弹，先上膛
         if(m_bullets[i].m_free)
         {
            m_bullets[i].m_free =false;
