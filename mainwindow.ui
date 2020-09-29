@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>小介绍</string>
+    </property>
+    <addaction name="actionzhang"/>
+    <addaction name="actionzzz"/>
+    <addaction name="actiondajia"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionzhang">
+   <property name="text">
+    <string>由张倩与张潇丹制作</string>
+   </property>
+  </action>
+  <action name="actionzzz">
+   <property name="text">
+    <string>有趣的飞机大战游戏</string>
+   </property>
+  </action>
+  <action name="actiondajia">
+   <property name="text">
+    <string>欢乐多又多 O(∩_∩)O哈哈~</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
