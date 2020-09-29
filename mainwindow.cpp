@@ -11,7 +11,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
     //设置界面标题
     setWindowTitle("飞机大战");
     //添加小飞机图标
